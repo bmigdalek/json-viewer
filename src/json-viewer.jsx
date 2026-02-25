@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { ChevronRight, AlertCircle } from 'lucide-react';
 
 const JSONViewer = () => {
   const [jsonInput, setJsonInput] = useState('');
