@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-import { ChevronRight, AlertCircle, Copy, Check } from 'lucide-react';
 
 const JSONViewer = () => {
   const [jsonInput, setJsonInput] = useState('');
   const [parsedData, setParsedData] = useState(null);
   const [error, setError] = useState('');
-  const [copiedId, setCopiedId] = useState(null);
 
   const handleJsonChange = (e) => {
     const value = e.target.value;
